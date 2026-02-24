@@ -17,5 +17,3 @@ function App(){
 }
 
 export default App
-
-// Esse comando cria um botão que quando clicado muda o h1
