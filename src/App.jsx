@@ -3,7 +3,7 @@ import AddTask from "./components/AddTasks";
 import Tasks from "./components/Tasks";
 
 function App(){
-  const [tasks, setTasks] = useState([
+  const [tasks, setTasks] = useState([ //Isso é um Hook, serve para armazenar valores que srtão mostrados na tela, essas listas são as tarefas a serem completadas
      {
       id: 1,
       title: "Estudar programação",
