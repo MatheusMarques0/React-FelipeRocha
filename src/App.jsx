@@ -12,9 +12,9 @@ function App(){
   }, [tasks])
 
   
-  useEffect(() => {
+  /*useEffect(() => {
   async function fetchTasks(){
-    // CHAMA A API
+  // CHAMA A API
   // usando o fetch do javascript
 
   const response = await fetch("https://jsonplaceholder.typicode.com/todos?_limit=10",
@@ -22,7 +22,7 @@ function App(){
       method: 'GET',
     }
   )
-    // o limit faz com que só apareça 10 tarefas
+  // o limit faz com que só apareça 10 tarefas
   
   // PEGAR OS DADOS QUE ELA RETORNA
   const  data = await response.json()
